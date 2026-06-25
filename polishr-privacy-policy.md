@@ -40,27 +40,11 @@ Polishr is a browser extension that helps fix grammar, improve prompts, and shor
 
 ---
 
-## Data Processing
-
-- Text is sent to a third-party AI service (Groq) for processing only.
-- We do not train models on your data.
-- Your text is not shared with anyone except the AI service provider.
-
----
-
 ## Data Retention
 
 - **Text:** Deleted immediately after processing (not stored).
 - **Usage Data:** Automatically expires after 48 hours.
 - **User ID:** Stored only in your browser, not on our servers.
-
----
-
-## Security
-
-- All data is transmitted over HTTPS.
-- API keys and secrets are stored server-side, never exposed in the extension.
-- We use Cloudflare Workers for secure backend processing.
 
 ---
 
